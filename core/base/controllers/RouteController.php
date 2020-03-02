@@ -7,16 +7,13 @@ use core\base\settings\Settings;
 use core\base\settings\ShopSettings;
 
 
-class RouteController
+class RouteController extends BaseController
 {
     static private $_instance;
 
     protected $routes;
 
-    protected $controller;
-    protected $imputMethod;   // собирает данные из БД
-    protected $outputMethod;  // подключение вида
-    protected $parameters;
+
 
     private function __clone()
     {
@@ -51,10 +48,10 @@ class RouteController
             // проверка
             if (!$this->routes) throw new RouteException('Сайт находится на техническом обслуживании');
 
-            if (strpos($adress_str, $this->routes['admin']['alias']) === strlen(PATH)) {
+            $url = explode('/', substr($adress_str, strlen(PATH)));
 
-                // обрезаем строку
-                $url = explode('/', substr($adress_str, strlen(PATH . $this->routes['admin']['alias']) + 1));
+            if ($url[0] && $url[0] === $this->routes['admin']['alias']) {
+                array_shift($url);
 
                 if ($url[0] && is_dir($_SERVER['DOCUMENT_ROOT'] . PATH . $this->routes['plugins']['path'] . $url[0])) {
 
@@ -64,8 +61,7 @@ class RouteController
                     // формируем имя к файлу плагина
                     $pluginSettings = $this->routes['settings']['path'] . ucfirst($plugin . 'Settings');
 
-
-                    if (file_exists($_SERVER['DOCUMENT_ROOT'] . PATH . $pluginSettings . 'php')) {
+                    if (file_exists($_SERVER['DOCUMENT_ROOT'] . PATH . $pluginSettings . '.php')) {
                         $pluginSettings = str_replace('/', '\\', $pluginSettings); // меняем слеши "/" на "\"
                         $this->routes = $pluginSettings::get('routes');                        // перезаписываем
                     }
@@ -93,7 +89,7 @@ class RouteController
                 }
 
             } else {
-                $url = explode('/', substr($adress_str, strlen(PATH)));
+
                 $hrUrl = $this->routes['user']['hrUrl'];
 
                 $this->controller = $this->routes['user']['path'];
@@ -126,10 +122,10 @@ class RouteController
                     }
                 }
             }
-            exit();
+
         } else {
             try {
-                throw new \Exception('Не корректная директория сайта');
+                throw new \Exception('Не корректная дeректория сайта');
             } catch (\Exception $e) {
                 exit($e->getMessage());
             }

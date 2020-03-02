@@ -29,7 +29,7 @@ class Settings
             'path' => 'core/user/controllers/',
             'hrUrl' => true,
             'routes' => [
-
+                'site' => 'index/hello',
             ],
         ],
         'default' => [
@@ -44,7 +44,6 @@ class Settings
         'textarea' => ['content','keywords'],
     ];
 
-    private $lalala = 'lalala';
 
     private function __construct()
     {

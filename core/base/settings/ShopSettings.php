@@ -12,11 +12,11 @@ class ShopSettings
     private $baseSettings;
 
     private $routes = [
-        'admin' => [
-            'name' => 'sudo',
-        ],
-        'vasia' => [
-            'name' => 'vasia',
+        'plugins' => [
+            'dir' => 'controllers',
+            'routes' => [
+                'product' => 'goods',
+            ],
         ],
     ];
 
