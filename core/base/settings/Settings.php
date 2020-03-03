@@ -29,7 +29,7 @@ class Settings
             'path' => 'core/user/controllers/',
             'hrUrl' => true,
             'routes' => [
-                'site' => 'index/hello',
+                'site' => 'index/inputData',
             ],
         ],
         'default' => [
