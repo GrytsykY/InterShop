@@ -28,7 +28,7 @@ function autolosdMainClasses($class_name){
 
 
     if (!@include_once $class_name . '.php'){
-        //throw new RouteException('Не верное имя файла для подключения - '.$class_name);
+        throw new RouteException('Не верное имя файла для подключения - '.$class_name);
     }
 }
 spl_autoload_register('autolosdMainClasses');

@@ -11,11 +11,6 @@ require_once 'libraries/function.php';
 use \core\base\exceptions\RouteException;
 use \core\base\controllers\RouteController;
 
-use core\base\settings\Settings;
-
-$s = Settings::get('routed');
-$s1 = Settings::get('teplateArr');
-
 
 try{
     RouteController::instance()->route();

@@ -52,8 +52,8 @@ trait BaseMethod
     protected function writeLog($message, $file = 'log.txt', $event = 'Fault'){
         $dataTime = new \DateTime();
 
-        $str = $event . ':' . $dataTime->format('d-m-Y G:i:s'). '-'. $message . "\r\n";
+        $str = $event . ':' . $dataTime->format('d-m-Y G:i:s'). ' - '. $message . "\r\n";
 
-        file_put_contents('log/'. $file . $str, FILE_APPEND);
+        file_put_contents('log/'. $file, $str, FILE_APPEND);
     }
 }
