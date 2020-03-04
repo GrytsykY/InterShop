@@ -1,0 +1,4 @@
+Fault:03-03-2020 21:40:47 - Method core\admin\controllers\IndexController::request() does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
