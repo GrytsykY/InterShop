@@ -7,7 +7,7 @@ namespace core\base\models;
 use core\base\controllers\Singleton;
 use core\base\exceptions\DbException;
 
-class BaseModel
+class BaseModel extends BaseModelMethod
 {
     use Singleton;
 
@@ -21,10 +21,16 @@ class BaseModel
             throw new DbException("Ошибка подключения к БД: "
                 .$this->db->connect_errno. ' '. $this->db->connect_error);
         }
-
         $this->db->query("SET NAMES UTF8");
     }
 
+	/**
+	 * @param $query
+	 * @param string $crud = r - SELECT/ c - INSERT/ u - UPDATE/ d - DELETE
+	 * @param bool $return_id
+	 * @return array|bool|mixed|null
+	 * @throws DbException
+	 */
     final public function query($query, $crud = 'r', $return_id = false){
         $result = $this->db->query($query);
 
@@ -54,4 +60,92 @@ class BaseModel
                 break;
         }
     }
+
+    /**
+     * @param $table - таблицы БД
+     * @param array $set
+     * 'fileds' => ['id', 'name']
+     * 'where' => ['fio' => 'Smirnova', 'name' => 'Masha', 'surname' => 'Sergeevna']
+     * 'operand' => ['=','<>']
+     * 'condition' => ['AND']
+     * 'order' => ['fio','name']
+     * 'order_direction' => ['ASC', "DESC']
+     * 'limit' => '1'
+	 * 'join' => [
+ 	 *   [
+	 * 		'table' => 'join_table1',
+	 * 		'fields' => ['id as j_id', 'name as j_name'],
+	 * 		'type' => 'left',
+	 * 		'where' => ['name' => 'sasha'],
+	 * 		'operand' => ['='],
+	 * 		'condition' => ['OR'],
+	 * 		'on' => ['id', 'parent_id'],
+	 * 		'group_condition' => 'AND',
+	 * 	 ],
+ * 		  'join_table1' => [
+	 * 		'table' => 'join_table2',
+	 * 		'fields' => ['id as j2_id', 'name as j2_name'],
+	 * 		'type' => 'left',
+	 * 		'where' => ['name' => 'sasha'],
+	 * 		'operand' => ['='],
+	 * 		'condition' => ['AND'],
+	 * 		'on' => [
+	 * 			'table' => 'teachers',
+	 * 			'fields' => ['id', 'parent_id'],
+	 * 			],
+	 * 	 ],
+	 * 	]
+     */
+    final public function get($table, $set = []){
+        $fields = $this->createFields($set, $table);
+
+        $order = $this->createOrder($set, $table);
+
+        $where = $this->createWhere($set, $table);
+
+        if (!$where) $new_where =  true;
+        	else $new_where = false;
+
+        $join_arr = $this->createJoin($set, $table, $new_where);
+
+        $fields .= $join_arr['fields'];
+        $join = $join_arr['join'];
+        $where .= $join_arr['where'];
+
+        $fields = rtrim($fields,',');
+
+
+
+        $limit = $set['limit'] ? 'LIMIT ' .$set['limit'] : '';
+
+        $query = "SELECT $fields FROM $table $join $where $order $limit";
+
+
+        return $this->query($query);
+    }
+
+	/**
+	 * @param $table - таблица для вставки данных
+	 * @param array $set- массив параметров
+	 * fields => [поле => значение]; если не указан, то обробатывается $_POST[поле => значение]
+	 * разрешена передача например NOW() в качестве Mysql функции обычной строкой
+	 * files => [поле => значение]; можна подать [поле => [массив значений]]
+	 * except => ['исключение 1','исключение 2'] - исключает данные элементы массива из добавления в запрос
+	 * return_id => true|false - возращать или нет идентификатор вставленной записи
+	 * @return mixed
+	 */
+    final public function add($table, $set){
+		$set['fields'] = (is_array($set['fields']) && !empty($set['fields'])) ? $set['fields'] : false;
+		$set['files'] = (is_array($set['files']) && !empty($set['files'])) ? $set['files'] : false;
+		$set['return_id'] = $set['return_id'] ? true : false;
+		$set['except'] = (is_array($set['except']) && !empty($set['except'])) ? $set['except'] : false;
+
+		$insert_arr = $this->createInsert($set['fields'], $set['files'], $set['except']);
+		if ($insert_arr){
+			$query = "INSERT INTO $table ({$insert_arr['fields']}) values ({$insert_arr['values']})";
+
+			return $this->query($query, 'c', $set['return_id']);
+		}
+		return false;
+	}
 }

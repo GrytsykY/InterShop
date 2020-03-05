@@ -1,0 +1,313 @@
+Fault:03-03-2020 22:33:28 - Ошибка подключения к БД: 1049 Unknown database 'intershop1'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 21
+
+Fault:04-03-2020 11:42:37 - Ошибка в SQL запросе: SELECT * FROM articles1 - 1146 Table 'intershop.articles1' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 11:44:10 - Ошибка в SQL запросе: SELECT name1 FROM articles - 1054 Unknown column 'name1' in 'field list'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 12:45:47 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name 
+                    FROM teachers 
+                    LEFT JOIN stu_teach ON teachers.id = stu_teach.teachers
+                    LEFT JOIN students ON stu_teach.students = students.id
+                     - 1054 Unknown column 'stu_teach.teachers' in 'on clause'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 12:47:28 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name 
+                    FROM students 
+                    LEFT JOIN stu_teach ON teachers.id = stu_teach.teacher
+                    LEFT JOIN students ON stu_teach.student = students.id
+                     - 1066 Not unique table/alias: 'students'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 13:10:04 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name 
+                    FROM teachers 
+                    LEFT JOIN stu_teach ON teachers.id = stu_teach.teacher
+                    LEFT JOIN students ON stu_teach.student = students.id
+                     - 1146 Table 'intershop.stu_teach' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 14:31:30 - Ошибка в SQL запросе: SELECT * FROM  products
+//                    SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name 
+//                    FROM teachers 
+//                    LEFT JOIN stud_teach ON teachers.id = stud_teach.teacher
+//                    LEFT JOIN students ON stud_teach.student = students.id
+                     - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//                    SELECT teachers.id, teachers.name, students.id as s_id, st' at line 2
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 14:31:51 - Ошибка в SQL запросе: SELECT * FROM  products
+
+                     - 1146 Table 'intershop.products' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 14:37:43 - Ошибка в SQL запросе: SELECT teachers.name, students.name FROM  teachers
+                    join stud_teach on teachers.id = stud_teach.teacher;
+                     - 1054 Unknown column 'students.name' in 'field list'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:19:27 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  students
+                    left join stud_teach on teachers.id = stud_teach.teacher
+                    left join students on stud_teach.student = students.id
+                     - 1066 Not unique table/alias: 'students'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:19:54 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  stud_teach
+                    left join stud_teach on teachers.id = stud_teach.teacher
+                    left join students on stud_teach.student = students.id
+                     - 1066 Not unique table/alias: 'stud_teach'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:19:56 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  stud_teach
+                    left join stud_teach on teachers.id = stud_teach.teacher
+                    left join students on stud_teach.student = students.id
+                     - 1066 Not unique table/alias: 'stud_teach'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:20:15 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  stud_teach
+                    join stud_teach on teachers.id = stud_teach.teacher
+                    join students on stud_teach.student = students.id
+                     - 1066 Not unique table/alias: 'stud_teach'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:20:17 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  stud_teach
+                    join stud_teach on teachers.id = stud_teach.teacher
+                    join students on stud_teach.student = students.id
+                     - 1066 Not unique table/alias: 'stud_teach'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:20:29 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  students
+                    join stud_teach on teachers.id = stud_teach.teacher
+                    join students on stud_teach.student = students.id
+                     - 1066 Not unique table/alias: 'students'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:20:32 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  students
+                    join stud_teach on teachers.id = stud_teach.teacher
+                    join students on stud_teach.student = students.id
+                     - 1066 Not unique table/alias: 'students'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:22:15 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  students
+                    join stud_teach on teachers.id = stud_teach.teacher
+                    join teachers on stud_teach.teacher = teachers.id
+                     - 1054 Unknown column 'teachers.id' in 'on clause'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 15:22:16 - Ошибка в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name FROM  students
+                    join stud_teach on teachers.id = stud_teach.teacher
+                    join teachers on stud_teach.teacher = teachers.id
+                     - 1054 Unknown column 'teachers.id' in 'on clause'
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 18:52:23 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio ASC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 18:54:25 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio ASC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 18:54:26 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio ASC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 18:55:48 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 18:55:49 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:04-03-2020 19:03:18 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:05-03-2020 11:15:49 - Ошибка подключения к БД: 2002 ����������� �� �����������, �.�. �������� ��������� ������ ������ �� �����������.
+
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 21
+
+Fault:05-03-2020 14:40:54 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name IN ('masha') AND teachers.surname<>(SELECT name FORM students WHERE id=1)  ORDER BY 1 DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'students WHERE id=1)  ORDER BY 1 DESC,teachers.name DESC 1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 32
+
+Fault:05-03-2020 15:32:08 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.id=join_table1.parent_id LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table1.name='sasha' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1146 Table 'intershop.join_table1' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:32:10 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.id=join_table1.parent_id LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table1.name='sasha' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1146 Table 'intershop.join_table1' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:32:11 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.id=join_table1.parent_id LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table1.name='sasha' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1146 Table 'intershop.join_table1' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:34:23 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.=join_table1. LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table1.name='sasha' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=join_table1. LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHER' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:34:50 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.=join_table1. LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table1.name='sasha' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=join_table1. LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHER' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:40:25 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.id=join_table1.parent_id LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table1.name='sasha' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:42:12 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.id=join_table1.parent_id LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table1.name='sasha' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1146 Table 'intershop.join_table1' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:47:10 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table2 ON teachers.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1146 Table 'intershop.join_table2' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:47:11 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table2 ON teachers.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1146 Table 'intershop.join_table2' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 15:47:40 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.id=join_table1.parent_id LEFT JOIN join_table2 ON join_table1.id=join_table2.parent_id WHERE teachers.name='O\'Raly' AND join_table1.name='sasha' AND join_table2.name<>'sasha'  ORDER BY teachers.name DESC LIMIT 1 - 1146 Table 'intershop.join_table1' doesn't exist
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 16:07:56 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name='Raly'   LIMIT 1 - 0 
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 31
+
+Fault:05-03-2020 18:37:30 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:38:52 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:38:55 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:41:34 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:42:19 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:42:21 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:42:22 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:42:47 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:42:48 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:42:55 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:46:18 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:46:19 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 18:46:20 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:06:41 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:15:39 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,0) values () - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0) values ()' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:16:38 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:17:19 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:17:21 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:27:03 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:27:15 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:27:16 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:27:32 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:29:35 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:29:47 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:30:19 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:32:02 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:54:51 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 19:59:03 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallary_img,img) values () - 1136 Column count doesn't match value count at row 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
+Fault:05-03-2020 20:05:37 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallary_img,img) values ('hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1364 Field 'name' doesn't have a default value
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 38
+
