@@ -6,6 +6,8 @@ namespace core\base\models;
 
 abstract class BaseModelMethod
 {
+	protected $sqlFunc = ['NOW()'];
+
 	protected function createFields($set, $table=false){
 		$set['fields'] = (is_array($set['fields']) && !empty($set['fields']))
 			? $set['fields'] : ['*'];
@@ -132,6 +134,7 @@ abstract class BaseModelMethod
 		$fields = '';
 		$join = '';
 		$where = '';
+		$tables = '';
 
 		if ($set['join']){
 			$join_table = $table;
@@ -148,10 +151,10 @@ abstract class BaseModelMethod
 					$join_fields = [];
 
 					switch (2){
-						case count($item['on']['fields']):
+						case  count($item['on']['fields']):
 							$join_fields = $item['on']['fields'];
 							break;
-						case count($item['on']):
+						case  count($item['on']):
 							$join_fields = $item['on'];
 							break;
 						default:
@@ -170,6 +173,7 @@ abstract class BaseModelMethod
 					$join .= '.' . $join_fields[0]. '=' . $key . '.' .$join_fields[1];
 
 					$join_table = $key;
+					$tables .= ', '.trim($join_table);
 
 					if ($new_where){
 						if ($item['where']){
@@ -185,25 +189,21 @@ abstract class BaseModelMethod
 				}
 			}
 
-			return compact('fields','join','where');
+			return compact('fields','join','where', 'tables');
 		}
 	}
 
 	protected function createInsert($fields, $files, $except){
-		if (!$fields){
-			$fields = $_POST;
-		}
 
 		$insert_arr = [];
 		if ($fields){
-			$sql_func = ['NOW()'];
 
 			foreach ($fields as $row => $value){
 				if ($except && in_array($row, $except)) continue;
 
 				$insert_arr['fields'] .= $row. ',';
 
-				if (in_array($value, $sql_func)){
+				if (in_array($value, $this->sqlFunc)){
 					$insert_arr['values'] .= $value. ',';
 				}else{
 					$insert_arr['values'] .= "'".addslashes($value). "',";
@@ -219,9 +219,37 @@ abstract class BaseModelMethod
 			}
 		}
 
-		if ($insert_arr) {
-			foreach ($insert_arr as $key => $arr) $insert_arr[$key] = rtrim($arr, ',');
-		}
+		foreach ($insert_arr as $key => $arr) $insert_arr[$key] = rtrim($arr, ',');
+
 		return $insert_arr;
+	}
+
+	protected function createUpdate($fields, $files, $except){
+		$update = '';
+
+		if ($fields){
+			foreach ($fields as $row => $value){
+				if ($except && in_array($row, $except)) continue;
+
+				$update .= $row . '=';
+				if (in_array($value, $this->sqlFunc)){
+					$update .= $value . ',';
+				}elseif ($value === NULL){
+					$update .= "NULL". ',';
+				}else{
+					$update .= "'" . addslashes($value) . "',";
+				}
+			}
+		}
+
+		if ($files){
+			foreach ($files as $row => $file){
+				$update .= $row.'=';
+				if (is_array($file)) $update .= "'".addslashes(json_encode($file)). "',";
+				else $update .= "'".addslashes($file). "',";
+			}
+		}
+
+		return rtrim($update, ',');
 	}
 }
