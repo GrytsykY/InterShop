@@ -11,7 +11,11 @@ abstract class BaseController
 {
     use \core\base\controllers\BaseMethod;
 
+	protected $header;
+	protected $content;
+	protected $footer;
     protected $page;
+
     protected $errors;
 
     protected $controller;
@@ -19,8 +23,11 @@ abstract class BaseController
     protected $outputMethod;  // подключение вида
     protected $parameters;
 
+    protected $template;
     protected $styles;
     protected $scripts;
+
+    protected $userId;
 
     public function route(){
         $controller = str_replace('/','\\',$this->controller);
@@ -51,7 +58,7 @@ abstract class BaseController
 
         if (method_exists($this, $outputData)) {
             $page = $this->$outputData($data);
-            if ($page) $this->page = $data;
+            if ($page) $this->page = $page;
         }
         elseif ($data) {
             $this->page = $data;
@@ -67,6 +74,7 @@ abstract class BaseController
     }
 
     protected function render($path = '', $parameters = []){
+
         extract($parameters);
 
         if (!$path){
@@ -100,7 +108,7 @@ abstract class BaseController
         }else{
             echo $this->page;
         }
-
+		exit; //Завершаем роботу
     }
 
     protected function init($admin = false){

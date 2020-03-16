@@ -43,6 +43,11 @@ class Settings
 
     private $defaultTable = 'teachers';
 
+    private $projecTables = [
+    	'teachers' => ['name' => 'Учителя', 'img' => 'pages.png'],
+    	'students' => ['name' => 'Ученики'],
+	];
+
     private $teplateArr = [
         'text' => ['phone','adress','name'],
         'textarea' => ['content','keywords'],
