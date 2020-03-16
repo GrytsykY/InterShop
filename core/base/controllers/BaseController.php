@@ -100,7 +100,7 @@ abstract class BaseController
         }else{
             echo $this->page;
         }
-        exit();
+
     }
 
     protected function init($admin = false){

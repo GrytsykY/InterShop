@@ -5,30 +5,14 @@ namespace core\admin\controllers;
 
 
 use core\base\controllers\BaseController;
-use core\admin\models\Model;
+use core\base\settings\Settings;
 
 class IndexController extends BaseController
 {
 	protected function inputData()
 	{
-		$db = Model::instance();
+		$redirect = PATH. Settings::get('routes')['admin']['alias']. '/show';
+		$this->redirect($redirect);
 
-		$table = 'teachers';
-
-		$color = ['red','blue','black'];
-
-
-
-		$res = $db->delete($table, [
-			'where' => ['id' => 3],
-			'join' => [
-				[ 'table'=>'students',
-					'on'=>['student_id','id']
-				]
-			]
-		]);
-
-		//debug($res);
-		exit('id= ');
 	}
 }

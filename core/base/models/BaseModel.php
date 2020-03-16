@@ -3,18 +3,13 @@
 
 namespace core\base\models;
 
-
-use core\base\controllers\Singleton;
 use core\base\exceptions\DbException;
-use core\base\settings\Settings;
 
-class BaseModel extends BaseModelMethod
+abstract class BaseModel extends BaseModelMethod
 {
-    use Singleton;
-
     protected $db;
 
-    private function __construct()
+    protected function connect()
     {
         $this->db = @new \mysqli(HOST,USER,PASS,DB_NAME);
 
@@ -35,18 +30,18 @@ class BaseModel extends BaseModelMethod
     final public function query($query, $crud = 'r', $return_id = false){
         $result = $this->db->query($query);
 
-        if ($this->db->affected_rows === -1){
-            throw new DbException('Ошибка в SQL запросе: '
-                .$query .' - '. $this->db->errno . ' '. $this->db->error
-            );
-        }
+//        if ($this->db->affected_rows === -1){
+//            throw new DbException('Ошибка в SQL запросе: '
+//                .$query .' - '. $this->db->errno . ' '. $this->db->error
+//            );
+//        }
 
         switch ($crud){
             case 'r':
                 if ($result->num_rows){
                     $res = [];
                     for ($i = 0; $i < $result->num_rows; $i++){
-                        $res = $result->fetch_assoc();
+                        $res[] = $result->fetch_assoc();
                     }
                     return $res;
                 }
@@ -222,5 +217,21 @@ class BaseModel extends BaseModelMethod
 			}
 		}
 		return $columns;
+	}
+
+	final public function showTables(){
+    	$query = 'SHOW TABLES ';
+
+    	$tables = $this->db->query($query);
+
+    	$table_arr = [];
+
+    	if ($tables){
+    		foreach ($tables as $table){
+    			$table_arr[] = reset($table);
+			}
+		}
+
+    	return $table_arr;
 	}
 }

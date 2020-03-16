@@ -41,10 +41,14 @@ class Settings
         ],
     ];
 
+    private $defaultTable = 'teachers';
+
     private $teplateArr = [
         'text' => ['phone','adress','name'],
         'textarea' => ['content','keywords'],
     ];
+
+    private $expansion = 'core/admin/expansion/';
 
     static public function get($property){
         return self::instance()->$property;
@@ -71,7 +75,7 @@ class Settings
 
         $arrays = func_get_args();         // получить аргументы
 
-        $base = array_shift($arrays); // вытаскиваем первый елемент масиваб и удаляет
+        $base = array_shift($arrays); // вытаскиваем первый елемент масива, и удаляет
 
         foreach ($arrays as $array){
             foreach ($array as $key => $value){

@@ -2,3 +2,187 @@ Fault:03-03-2020 21:40:47 - Method core\admin\controllers\IndexController::reque
 fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
 In line 39
 
+Fault:07-03-2020 1:10:10 - Method core\admin\controllers\ShowController::request() does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:07-03-2020 1:11:06 - Method core\admin\controllers\ShowController::request() does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:07-03-2020 19:33:40 - Не верное имя файла для подключения - core/admin/controllers/BaseAdmin
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:07-03-2020 19:33:40 - Class core\admin\controllers\ShowController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:07-03-2020 19:45:48 - Не найдены поля в таблице - 
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 56
+
+Fault:07-03-2020 19:45:49 - Не найдены поля в таблице - 
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 56
+
+Fault:07-03-2020 19:45:50 - Не найдены поля в таблице - 
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 56
+
+Fault:07-03-2020 19:45:51 - Не найдены поля в таблице - 
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 56
+
+Fault:12-03-2020 13:59:21 - Method core\admin\controllers\CreatesitemapController::request() does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:05:41 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:06:03 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:07:47 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:08:25 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:12:09 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:20:06 - Не верное имя файла для подключения - core/user/controllers/JsController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:12-03-2020 15:20:06 - Class core\user\controllers\JsController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:20:22 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:21:12 - Не верное имя файла для подключения - core/user/controllers/JsController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:12-03-2020 15:21:12 - Class core\user\controllers\JsController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:21:47 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:22:08 - Не верное имя файла для подключения - core/user/controllers/JsController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:12-03-2020 15:22:08 - Class core\user\controllers\JsController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:10 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:13 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:15 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:24 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:35 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:12-03-2020 15:23:35 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:35 - Не верное имя файла для подключения - core/user/controllers/TextinputassistantController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:12-03-2020 15:23:35 - Class core\user\controllers\TextinputassistantController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:36 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:12-03-2020 15:23:36 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:36 - Class core\user\controllers\Client_204?&atyp=i&biw=1920&bih=937&ei=xylqXrrbG8jnrgSPsbtYController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:36 - Не верное имя файла для подключения - core/user/controllers/XjsController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:12-03-2020 15:23:36 - Class core\user\controllers\XjsController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:12-03-2020 15:23:36 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:12-03-2020 15:23:36 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:13-03-2020 10:01:25 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:13-03-2020 10:02:44 - Class core\admin\controllers\%D1%81reatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:14-03-2020 14:09:19 - Class core\admin\controllers\ParsingController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:14-03-2020 21:00:44 - Не верное имя файла для подключения - core/admin/controllers/ParserController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:14-03-2020 21:00:44 - Class core\admin\controllers\ParserController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:14-03-2020 21:01:09 - Не верное имя файла для подключения - core/admin/controllers/ParserController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:14-03-2020 21:01:09 - Class core\admin\controllers\ParserController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+
+Fault:14-03-2020 21:01:40 - Не верное имя файла для подключения - core/admin/controllers/ParserController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 31
+
+Fault:14-03-2020 21:01:40 - Class core\admin\controllers\ParserController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 39
+

@@ -1,71 +1,59 @@
-
-
-Fault:05-03-2020 20:18:46 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: INSERT INTO teachers (content,gallary_img,img) values ('hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1364 Field 'name' doesn't have a default value
+Fault:13-03-2020 17:33:14 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: CREATE TABLE parsing_data (all_links text, temp_links text) - 1050 Table 'parsing_data' already exists
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 39
 
-Fault:05-03-2020 20:20:16 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: INSERT INTO teachers (content,gallary_img,img) values ('hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1364 Field 'name' doesn't have a default value
+Fault:13-03-2020 17:38:45 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: CREATE TABLE parsing_data (all_links text, temp_links text) - 1050 Table 'parsing_data' already exists
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 39
 
-Fault:06-03-2020 8:58:02 - РћС€РёР±РєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р‘Р”: 2002 Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+Fault:13-03-2020 17:48:19 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SELECT parsing_data.* FROM parsing_data     - 0 
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 39
+
+Fault:13-03-2020 17:50:26 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: UPDATE parsing_data SET temp_links='',all_links=''  - 0 
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 39
+
+Fault:13-03-2020 18:55:44 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: UPDATE parsing_data SET temp_links='[]',all_links='[]'  - 1053 Server shutdown in progress
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 39
+
+Fault:13-03-2020 18:55:49 - РћС€РёР±РєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р‘Р”: 2002 Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
 
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 21
+In line 22
 
-Fault:06-03-2020 9:17:52 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
+Fault:13-03-2020 21:49:38 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: CREATE TABLE parsing_data (all_links text, temp_links text) - 1050 Table 'parsing_data' already exists
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 39
 
-Fault:06-03-2020 9:18:19 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
+Fault:14-03-2020 9:13:24 - РћС€РёР±РєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р‘Р”: 2002 Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 22
 
-Fault:06-03-2020 9:20:21 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
+Fault:14-03-2020 11:17:40 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: UPDATE parsing_data SET temp_links='[]',all_links='[\"http:\\/\\/cpa.fvds.ru\\/\"]'  - 0 
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 39
 
-Fault:06-03-2020 9:21:00 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
+Fault:16-03-2020 11:33:24 - РћС€РёР±РєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р‘Р”: 2002 Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 22
 
-Fault:06-03-2020 9:21:44 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
+Fault:16-03-2020 12:05:08 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SELECT teachers.id as id,teachers.name,teachers.img,teachers.content,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC,teachers.menu_position ASC  - 0 
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 39
 
-Fault:06-03-2020 9:23:54 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
+Fault:16-03-2020 13:07:24 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SELECT teachers.id as id,teachers.name,teachers.img,teachers.content,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC,teachers.menu_position ASC  - 0 
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 39
 
-Fault:06-03-2020 9:24:06 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
+Fault:16-03-2020 13:13:10 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SELECT teachers.id as id,teachers.name,teachers.img,teachers.content,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC,teachers.menu_position ASC  - 0 
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
+In line 39
 
-Fault:06-03-2020 9:24:09 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
-fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
-
-Fault:06-03-2020 10:11:35 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SELECT * FROM teachers - 0 
-fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
-
-Fault:06-03-2020 10:12:53 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SELECT * FROM teachers - 0 
-fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
-
-Fault:06-03-2020 10:35:50 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
-fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
-
-Fault:06-03-2020 10:36:12 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SHOW COLUMNS FROM teachers - 0 
-fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
-
-Fault:06-03-2020 12:26:11 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: UPDATE teachers SET name='Masha',files=''  - 1054 Unknown column 'files' in 'field list'
-fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
-In line 38
-
-Fault:06-03-2020 21:08:31 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: UPDATE teachers SET name=,img= WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'img= WHERE teachers.id='1'' at line 1
+Fault:16-03-2020 13:14:18 - РћС€РёР±РєР° РІ SQL Р·Р°РїСЂРѕСЃРµ: SELECT teachers.id as id,teachers.name,teachers.img,teachers.content,teachers.parent_id FROM teachers   ORDER BY teachers.parent_id ASC,teachers.menu_position ASC  - 0 
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
 In line 39
 
