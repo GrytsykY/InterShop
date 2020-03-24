@@ -8,7 +8,7 @@ use core\base\settings\Settings;
 
 class AddController extends BaseAdmin
 {
-	protected function outputData()
+	protected function inputData()
 	{
 		if (!$this->userId) $this->execBase();
 
@@ -22,26 +22,6 @@ class AddController extends BaseAdmin
 
 		$this->createOutputData();
 
-		$this->manyAdd();
-		exit;
-	}
-
-	protected function manyAdd(){
-		$fields = ['name' => 'Masha111','menu_position' => 1];
-		$files = ['img' => ['1.jpg','7.jpg']];
-
-//		$fields = [
-//			1 => ['name' => 'Vika','img' => '3.jpg','menu_position' => 1],
-//			2 => ['name' => 'Natal','img' => '4.jpg']
-//		];
-//		$files = ['img' => '1.jpg',
-//			'gallery_img' => ['5.jpg','6.jpg']
-//			];
-
-		$this->model->add('teachers',[
-			'fields' => $fields,
-			'files' => $files
-		]);
 	}
 
 	protected function createForeignProperty($arr, $rootItems){

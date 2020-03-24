@@ -1526,3 +1526,571 @@ Fault:23-03-2020 22:27:55 - Не найдены поля в таблице - add
 fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
 In line 80
 
+Fault:24-03-2020 11:22:26 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 11:22:26 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 11:22:26 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 11:22:26 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 11:25:23 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 11:25:23 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 11:25:23 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 11:25:23 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 11:59:02 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 11:59:02 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 11:59:02 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 11:59:02 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 11:59:07 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 11:59:07 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:00:15 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:00:15 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:02:10 - Не верное имя файла для подключения - core/admin/controllers/EditController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:02:10 - Class core\admin\controllers\EditController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:02:13 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:02:13 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:03:24 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:03:24 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:03:24 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:03:24 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:03:40 - Не верное имя файла для подключения - core/admin/controllers/EditController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:03:40 - Class core\admin\controllers\EditController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:03:55 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:03:55 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:03:55 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:03:55 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:06:32 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:06:32 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:06:32 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:06:32 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:07:29 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:07:29 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:07:29 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:07:29 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:09:26 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:09:26 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:09:26 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:09:26 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:12:25 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:12:25 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:12:25 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:12:25 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:12:46 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:12:46 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:12:46 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:12:46 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:30:35 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:30:35 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:30:43 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:30:43 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:30:43 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:30:43 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:38:16 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:38:16 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:38:16 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:38:16 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:38:38 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:38:38 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:38:38 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:38:38 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:45:16 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:45:16 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:45:16 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:45:16 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:55:32 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:55:32 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:55:32 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:55:32 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:55:48 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:55:48 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:55:48 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:55:48 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:55:50 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:55:50 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:55:50 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:55:50 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:56:47 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:56:47 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:56:47 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:56:47 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:56:49 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:56:49 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:56:49 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:56:49 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:56:54 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:56:54 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:56:54 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:56:54 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:56:57 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:56:57 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:56:57 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:56:57 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:57:02 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:57:02 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:57:02 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:57:02 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:59:05 - Не верное имя файла для подключения - core/user/controllers/CoreController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:59:05 - Class core\user\controllers\CoreController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:59:30 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:59:30 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 12:59:30 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 12:59:30 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:00:20 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:00:20 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:00:20 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:00:20 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:00:26 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:00:26 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:00:26 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:00:26 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:48:34 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:48:34 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:49:55 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:49:55 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:49:55 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:49:55 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:50:48 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:50:48 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:50:48 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:50:48 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:51:31 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:51:31 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:51:31 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:51:31 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:52:49 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:52:49 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 13:52:49 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 13:52:49 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 14:10:19 - Не верное имя файла для подключения - core/user/controllers/CoreController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 14:10:19 - Class core\user\controllers\CoreController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 14:13:39 - Не верное имя файла для подключения - core/user/controllers/CoreController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 14:13:39 - Class core\user\controllers\CoreController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 14:13:59 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 14:13:59 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 14:13:59 - Не верное имя файла для подключения - core/user/controllers/UserfilesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 14:13:59 - Class core\user\controllers\UserfilesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:24-03-2020 14:14:07 - Не верное имя файла для подключения - core/user/controllers/CoreController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:24-03-2020 14:14:07 - Class core\user\controllers\CoreController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
