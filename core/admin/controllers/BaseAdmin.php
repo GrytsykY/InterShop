@@ -16,11 +16,15 @@ abstract class BaseAdmin extends BaseController
 	protected $table;
 	protected $columns;
 	protected $data;
+	protected $foreignData;
 
 	protected $adminPath;
 
 	protected $menu;
 	protected $title;
+
+	protected $translate;
+	protected $blocks = [];
 
 	protected function inputData(){
 		$this->init(true);
@@ -60,11 +64,15 @@ abstract class BaseAdmin extends BaseController
 		self::inputData();
 	}
 
-	protected function createTableData(){
+	protected function createTableData($settings = false){
 		if (!$this->table){
 			if ($this->parameters){
 				$this->table = array_keys($this->parameters)[0];
 			}else{
+				if (!$settings){
+					$settings = Settings::instance();
+				}
+
 				$this->table = Settings::get('defaultTable');
 			}
 		}
@@ -112,4 +120,55 @@ abstract class BaseAdmin extends BaseController
 		return false;
 	}
 
+	protected function createOutputData($settings = false){
+		if (!$settings) $settings = Settings::instance();
+
+		$blocks = $settings::get('blockNeedle');
+		$this->translate = $settings::get('translate');
+
+		if (!$blocks || !is_array($blocks)){
+
+			foreach ($this->columns as $name => $item){
+				if ($name === 'id_row') continue;
+
+				if (!$this->translate[$name]) $this->translate[$name][] = $name;
+				$this->blocks[0][] = $name;
+			}
+			return;
+		}
+
+		$default = array_keys($blocks)[0];
+
+		foreach ($this->columns as $name => $item){
+			if ($name === 'id_row') continue;
+
+			$insert = false;
+
+			foreach ($blocks as $block => $value){
+				if (!array_key_exists($block,$this->blocks)) $this->blocks[$block] = [];
+
+				if (in_array($name,$value)){
+					$this->blocks[$block][] = $name;
+					$insert = true;
+					break;
+				}
+			}
+
+			if (!$insert) $this->blocks[$default][] = $name;
+			if (!$this->translate[$name]) $this->translate[$name][] = $name;
+		}
+		return;
+	}
+
+	protected function createRadio($settings = false){
+		if (!$settings) $settings = Settings::instance();
+
+		$radio = $settings::get('radio');
+
+		if ($radio){
+			foreach ($this->columns as $name => $item){
+				$this->foreignData[$name] = $radio[$name];
+			}
+		}
+	}
 }

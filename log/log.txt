@@ -1150,3 +1150,379 @@ Fault:16-03-2020 19:30:09 - Class core\user\controllers\ImagesController does no
 fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
 In line 44
 
+Fault:16-03-2020 20:28:54 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 20:28:54 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 20:28:54 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 20:28:54 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 20:29:32 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:29:48 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:30:41 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:32:57 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:33:50 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:36:29 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:37:35 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:40:04 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:44:59 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:55:00 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 20:55:54 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 21:00:21 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 21:00:21 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 21:00:21 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 21:00:21 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 21:00:25 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:16-03-2020 21:00:29 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 21:00:29 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 21:00:29 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 21:00:29 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 21:00:32 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 21:00:32 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 21:00:32 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 21:00:32 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 21:00:35 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 21:00:35 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 21:00:35 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:16-03-2020 21:00:35 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:16-03-2020 21:00:40 - Не найдены поля в таблице - articles
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 79
+
+Fault:17-03-2020 12:15:54 - Не верное имя файла для подключения - core/admin/controllers/ArticlesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 12:15:54 - Class core\admin\controllers\ArticlesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 12:16:39 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 12:16:39 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 12:16:39 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 12:16:39 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 12:16:48 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 12:16:48 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 12:16:48 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 12:16:48 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:56:10 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:56:10 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:56:24 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:56:24 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:56:51 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:56:51 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:56:54 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:56:54 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:56:54 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:56:54 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:56:58 - Не верное имя файла для подключения - core/admin/controllers/EditController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:56:58 - Class core\admin\controllers\EditController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:57:02 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:57:02 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:57:02 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:57:02 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:57:06 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:57:06 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 15:57:06 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 15:57:06 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 16:12:34 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 16:12:34 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 16:12:34 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 16:12:34 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 16:33:15 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 16:33:15 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:17-03-2020 16:33:28 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:17-03-2020 16:33:28 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 21:32:50 - Class core\admin\controllers\Show?page=1&order=rowController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 21:45:48 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:23-03-2020 21:45:48 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 21:45:48 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:23-03-2020 21:45:48 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 21:45:56 - Class core\admin\controllers\Show?page=1&order=roController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 21:46:11 - Не найдены поля в таблице - teachers?page=1&order=ro
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 80
+
+Fault:23-03-2020 21:46:12 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:23-03-2020 21:46:12 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 21:46:12 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:23-03-2020 21:46:12 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 21:46:29 - Не найдены поля в таблице - teachers?page=1&order=ro
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 80
+
+Fault:23-03-2020 22:01:06 - Не найдены поля в таблице - teachers?page=1&order=ro
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 80
+
+Fault:23-03-2020 22:01:07 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:23-03-2020 22:01:07 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 22:01:07 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:23-03-2020 22:01:07 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 22:27:45 - Не найдены поля в таблице - add
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 80
+
+Fault:23-03-2020 22:27:46 - Не верное имя файла для подключения - core/user/controllers/TemplateController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:23-03-2020 22:27:46 - Class core\user\controllers\TemplateController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 22:27:46 - Не верное имя файла для подключения - core/user/controllers/ImagesController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:23-03-2020 22:27:46 - Class core\user\controllers\ImagesController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:23-03-2020 22:27:55 - Не найдены поля в таблице - add
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 80
+

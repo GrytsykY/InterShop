@@ -40,6 +40,7 @@ class Settings
             'outputMethod' => 'outputData',
         ],
     ];
+	private $expansion = 'core/admin/expansion/';
 
     private $defaultTable = 'teachers';
 
@@ -53,7 +54,24 @@ class Settings
         'textarea' => ['content','keywords'],
     ];
 
-    private $expansion = 'core/admin/expansion/';
+    private $translate = [
+    	'name' => ['Название','Не более 100 символов']
+	];
+
+    private $radio = [
+    	'visible' => ['Нет','Да','default' => 'Да']
+	];
+
+    private  $rootItems = [
+    	'name' => 'Корневая',
+		'tables' => ['teachers','articles']
+	];
+
+    private $blockNeedle = [
+    	'vg-rows' => [],
+    	'vg-img' => [],
+    	'vg-content' => [],
+	];
 
     static public function get($property){
         return self::instance()->$property;
