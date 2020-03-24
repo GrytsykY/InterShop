@@ -44,14 +44,19 @@ class Settings
 
     private $defaultTable = 'teachers';
 
+    private $formTemplates = PATH. 'core/admin/views/include/form_templates/';
+
     private $projecTables = [
     	'teachers' => ['name' => 'Учителя', 'img' => 'pages.png'],
     	'students' => ['name' => 'Ученики'],
 	];
 
-    private $teplateArr = [
-        'text' => ['phone','adress','name'],
-        'textarea' => ['content','keywords'],
+    private $templateArr = [
+        'text' => ['name'],
+        'textarea' => ['content'],
+		'radio' => ['visible'],
+		'select' => ['menu_position','parent_id'],
+		'img' => ['img']
     ];
 
     private $translate = [
@@ -69,8 +74,8 @@ class Settings
 
     private $blockNeedle = [
     	'vg-rows' => [],
-    	'vg-img' => [],
-    	'vg-content' => [],
+    	'vg-img' => ['img'],
+    	'vg-content' => ['content'],
 	];
 
     static public function get($property){
