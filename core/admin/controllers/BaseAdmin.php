@@ -3,7 +3,6 @@
 
 namespace core\admin\controllers;
 
-
 use core\admin\models\Model;
 use core\base\controllers\BaseController;
 use core\base\exceptions\RouteException;
@@ -78,14 +77,14 @@ abstract class BaseAdmin extends BaseController
 			}else{
 				if (!$settings){
 					$settings = Settings::instance();
+					$this->table = Settings::get('defaultTable');
 				}
-
-				$this->table = Settings::get('defaultTable');
 			}
 		}
 		$this->columns= $this->model->showColumns($this->table);
 		if (!$this->columns) new RouteException('Не найдены поля в таблице - '.$this->table,2);
 		//exit();
+
 	}
 
 	protected function expansion($args = [], $settings = false){
@@ -130,11 +129,12 @@ abstract class BaseAdmin extends BaseController
 	protected function createOutputData($settings = false){
 		if (!$settings) $settings = Settings::instance();
 
+		// получаем свойства "blockNeedle" и "translate"
 		$blocks = $settings::get('blockNeedle');
 		$this->translate = $settings::get('translate');
 
 		if (!$blocks || !is_array($blocks)){
-
+			//
 			foreach ($this->columns as $name => $item){
 				if ($name === 'id_row') continue;
 
@@ -174,8 +174,79 @@ abstract class BaseAdmin extends BaseController
 
 		if ($radio){
 			foreach ($this->columns as $name => $item){
-				$this->foreignData[$name] = $radio[$name];
+				if ($radio[$name]) {
+					$this->foreignData[$name] = $radio[$name];
+				}
 			}
 		}
+	}
+
+	protected function checkPost($settings = false){
+
+		if ($this->isPost()){
+			$this->clearPostFields($settings);
+			$this->table = $this->clearStr($_SERVER['table']);
+			unset($_POST['table']);
+
+			if ($this->table){
+				$this->createTableData($settings);
+				$this->editData();
+			}
+		}
+	}
+
+	protected function clearPostFields($settings, &$arr =  []){
+		if (!$arr) $arr = &$_POST;
+		if (!$settings) $settings = Settings::instance();
+
+		$id = $_POST[$this->columns['id_row']] ? : false;
+
+		$validate = $settings::get('validation');
+		if (!$this->translate) $this->translate = $settings::get('translate');
+
+		foreach ($arr as $key => $item){
+			if (is_array($item)){
+				$this->clearPostFields($settings, $item);
+			} else {
+				if (is_numeric($item)){
+					$arr[$key] = $this->clearNum($item);
+				}
+
+				if ($validate){
+					if ($validate[$key]){
+						if ($this->translate[$key]){
+							$answer = $this->translate[$key][0];
+						} else {
+							$answer = $key;
+						}
+						if ($validate[$key]['crypt']){
+							if ($id){
+								if (empty($item)){
+									unset($arr[$key]);
+									continue;
+								}
+
+								$arr[$key] = md5($item);
+							}
+						}
+
+						if ($validate[$key]['empty']) $this->emptyFields($item, $answer);
+
+						if ($validate[$key]['trim']) $arr[$key] = trim($item);
+
+						if ($validate[$key]['int']) $arr[$key] = $this->clearNum($item);
+
+						if ($validate[$key]['count']) $this->countChar($item, $validate[$key]['count'],$answer);
+
+					}
+				}
+			}
+		}
+
+		return true;
+	}
+
+	protected function editData(){
+
 	}
 }

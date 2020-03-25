@@ -14,6 +14,8 @@ class AddController extends BaseAdmin
 	{
 		if (!$this->userId) $this->execBase();
 
+		$this->checkPost();
+
 		$this->createTableData();
 
 		$this->createForeignData();
@@ -24,12 +26,21 @@ class AddController extends BaseAdmin
 
 		$this->createOutputData();
 
+//		$this->data = [
+//			'name' => 'Masha',
+//			'keywords' => 'Ключевики',
+//			'parent_id' => '1',
+//			'menu_position' => '1',
+//			'img' => '1.jpg',
+//			'gallery_img' => json_encode(['1.jpg','2.jpg'])
+//		];
+
 	}
 
 	protected function createForeignProperty($arr, $rootItems){
 		if (in_array($this->table,$rootItems['tables'])){
 			$this->foreignData[$arr['COLUMN_NAME']][0]['id'] = 0;
-			$this->foreignData[$arr['COLUMN_NAME']][0]['name'] = $rootItems;
+			$this->foreignData[$arr['COLUMN_NAME']][0]['name'] = $rootItems['name'];
 		}
 
 		$columns = $this->model->showColumns($arr['REFERENCED_TABLE_NAME']);
@@ -93,23 +104,24 @@ class AddController extends BaseAdmin
 			$this->createForeignProperty($arr, $rootItems);
 		}
 
-		return;
+		return $this->foreignData;
 	}
 
 	protected function createMenuPosition($settings = false){
+		$z = 0;
 		if ($this->columns['menu_position']) {
 			if (!$settings) $settings = Settings::instance();
 			$rootItems = $settings::get('rootItems');
 
 			if ($this->columns['parent_id']){
 				if (in_array($this->table, $rootItems['tables'])){
-					$where = 'parent_id IS NULL OR parent_id = 0';
+					$where = $where = "parent_id";
 				}else{
 					$parent = $this->model->showForeignKeys($this->table, 'parent_id')[0];
 
 					if ($parent){
 						if ($this->table === $parent['REFERENCED_TABLE_NAME']){
-							$where = 'parent_id IS NULL OR parent_id = 0';
+							$where = $where = "parent_id";
 						}else {
 
 							$columns = $this->model->showColumns($parent['REFERENCED_TABLE_NAME']);
@@ -126,7 +138,7 @@ class AddController extends BaseAdmin
 							if ($id) $where = ['parent_id' => $id];
 						}
 					}else{
-						$where = 'parent_id IS NULL OR parent_id = 0';
+						$where = "parent_id";
 					}
 				}
 			}

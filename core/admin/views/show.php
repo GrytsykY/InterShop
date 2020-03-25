@@ -10,7 +10,7 @@
 			</div>
 		</a>
 	</div>
-
+	<?php $t=$this->data; ?>
 	<?php if ($this->data): ?>
 		<?php foreach ($this->data as $data): ?>
 			<div class="vg-element vg-fourth">

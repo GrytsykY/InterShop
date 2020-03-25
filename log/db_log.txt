@@ -258,3 +258,47 @@ Fault:24-03-2020 13:30:46 - Ошибка в SQL запросе: SELECT COLUMN_NA
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
 In line 35
 
+Fault:24-03-2020 20:10:43 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE parent_id IS NULL OR parent_id = 0   - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:24-03-2020 22:24:16 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE parent_id IS NULL OR parent_id = 0   - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:24-03-2020 22:26:54 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE parent_id IS NULL OR parent_id = 0   - 0 
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:24-03-2020 22:52:50 - Ошибка в SQL запросе: SELECT pages.id FROM pages   ORDER BY pages. ASC LIMIT 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC LIMIT 1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:25-03-2020 10:57:34 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE parent_id IS NULL OR parent_id = 0   - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:25-03-2020 11:05:48 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE parent_id IS NULL OR parent_id = 0   - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:25-03-2020 15:36:24 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE parent_id IS NULL OR parent_id = 0   - 0 
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:25-03-2020 18:27:55 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE parent_id IS NULL OR parent_id = 0   - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:25-03-2020 18:56:56 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE    - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:25-03-2020 18:57:51 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM teachers  WHERE    - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:25-03-2020 19:01:41 - Ошибка в SQL запросе: SELECT pages.id FROM pages   ORDER BY pages. ASC LIMIT 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC LIMIT 1' at line 1
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+

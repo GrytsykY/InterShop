@@ -8,7 +8,7 @@ use core\base\controllers\Singleton;
 
 class Settings
 {
-    use Singleton;
+	use Singleton;
 
     private $routes = [
         'admin' => [
@@ -56,7 +56,8 @@ class Settings
         'textarea' => ['content'],
 		'radio' => ['visible'],
 		'select' => ['menu_position','parent_id'],
-		'img' => ['img']
+		'img' => ['img'],
+		'gallery_img' => ['gallery_img']
     ];
 
     private $translate = [
@@ -76,6 +77,15 @@ class Settings
     	'vg-rows' => [],
     	'vg-img' => ['img'],
     	'vg-content' => ['content'],
+	];
+
+    private $validation = [
+    	'name' => ['empty' => true, 'trim' => true],
+		'price' => ['int' => true],
+		'login' => ['empty' => true, 'trim' => true],
+		'password' => ['crypt' => true, 'empty' => true],
+		'keywords' => ['count' => 70, 'trim' => true],
+		'description' => ['count' => 160, 'trim' => true],
 	];
 
     static public function get($property){
