@@ -250,3 +250,11 @@ Fault:26-03-2020 17:03:22 - Class core\user\controllers\UserfilesController does
 fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
 In line 46
 
+Fault:26-03-2020 22:43:27 - Не верное имя файла для подключения - core/admin/controllers/EditController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:26-03-2020 22:43:27 - Class core\admin\controllers\EditController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
