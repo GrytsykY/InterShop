@@ -12,7 +12,7 @@
 			<div class="vg-element vg-full vg-left ">
 				<input type="text" name="<?=$row?>" class="vg-input vg-text vg-firm-color1"
 					   value="<?=isset($_SESSION['res'][$row]) ? htmlspecialchars($_SESSION['res'][$row]) : htmlspecialchars
-						 ($this->data[$row])?>">
+						 ($this->data[$row])?>"/>
 			</div>
 		</div>
 	</div>

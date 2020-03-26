@@ -206,3 +206,23 @@ Fault:25-03-2020 19:14:02 - Class core\user\controllers\LoginController does not
 fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
 In line 46
 
+Fault:25-03-2020 22:53:35 - Не найдены поля в таблице - teachers
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 89
+
+Fault:25-03-2020 23:22:37 - Не найдены поля в таблице - teachers
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 89
+
+Fault:26-03-2020 10:57:02 - Не найдены поля в таблице - teachers
+fileD:\OSPanel\domains\InterShop\core\admin\controllers\BaseAdmin.php
+In line 89
+
+Fault:26-03-2020 11:56:08 - Не найден шаблон /core/admin/views/include/form_templates/name.php
+fileD:\OSPanel\domains\InterShop\core\admin\views\add.php
+In line 46
+
+Fault:26-03-2020 11:59:44 - Не найден шаблон /core/admin/views/include/form_templates/keywords.php
+fileD:\OSPanel\domains\InterShop\core\admin\views\add.php
+In line 46
+

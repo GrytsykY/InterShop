@@ -42,6 +42,8 @@ class Settings
     ];
 	private $expansion = 'core/admin/expansion/';
 
+	private $messages = 'core/base/messages/';
+
     private $defaultTable = 'teachers';
 
     private $formTemplates = PATH. 'core/admin/views/include/form_templates/';
@@ -53,7 +55,7 @@ class Settings
 
     private $templateArr = [
         'text' => ['name'],
-        'textarea' => ['content'],
+        'textarea' => ['keywords','content'],
 		'radio' => ['visible'],
 		'select' => ['menu_position','parent_id'],
 		'img' => ['img'],

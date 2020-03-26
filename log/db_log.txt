@@ -302,3 +302,24 @@ Fault:25-03-2020 19:01:41 - Ошибка в SQL запросе: SELECT pages.id 
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
 In line 35
 
+Fault:25-03-2020 22:53:35 - Ошибка в SQL запросе: SELECT COLUMN_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME
+ 			      FROM information_schema.KEY_COLUMN_USAGE
+				  WHERE  TABLE_SCHEMA = 'intershop' AND TABLE_NAME = 'teachers' AND 
+				  CONSTRAINT_NAME <> 'PRIMERY' AND  REFERENCED_TABLE_NAME is not null  - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 10:57:02 - Ошибка в SQL запросе: SELECT COLUMN_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME
+ 			      FROM information_schema.KEY_COLUMN_USAGE
+				  WHERE  TABLE_SCHEMA = 'intershop' AND TABLE_NAME = 'teachers' AND 
+				  CONSTRAINT_NAME <> 'PRIMERY' AND  REFERENCED_TABLE_NAME is not null  - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 10:59:22 - Ошибка в SQL запросе: SELECT COLUMN_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME
+ 			      FROM information_schema.KEY_COLUMN_USAGE
+				  WHERE  TABLE_SCHEMA = 'intershop' AND TABLE_NAME = 'teachers' AND 
+				  CONSTRAINT_NAME <> 'PRIMERY' AND  REFERENCED_TABLE_NAME is not null  - 0 
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
