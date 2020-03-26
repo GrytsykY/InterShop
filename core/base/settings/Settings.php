@@ -55,7 +55,7 @@ class Settings
 
     private $templateArr = [
         'text' => ['name'],
-        'textarea' => ['keywords','content'],
+        'textarea' => ['kkk','keywords','content'],
 		'radio' => ['visible'],
 		'select' => ['menu_position','parent_id'],
 		'img' => ['img'],
