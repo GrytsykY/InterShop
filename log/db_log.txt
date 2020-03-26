@@ -379,3 +379,35 @@ Fault:26-03-2020 17:37:36 - Ошибка в SQL запросе: INSERT INTO teac
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
 In line 35
 
+Fault:26-03-2020 20:00:13 - Ошибка в SQL запросе: INSERT INTO teachers (name,keywords,visible,menu_position,parent_id,content,date,datetime,alias) values ('Новый класный учитель /\\|\'\'\'\'@@@','смисми','1','1',0,'сиси',NOW(),NOW(),'') - 1452 Cannot add or update a child row: a foreign key constraint fails (`intershop`.`teachers`, CONSTRAINT `teachers_students_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `students` (`id`))
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 20:00:51 - Ошибка в SQL запросе: INSERT INTO teachers (name,keywords,visible,menu_position,parent_id,content,date,datetime,alias) values ('Новый класный учитель /\\|@@@','смисми','1','1',0,'сиси',NOW(),NOW(),'') - 1452 Cannot add or update a child row: a foreign key constraint fails (`intershop`.`teachers`, CONSTRAINT `teachers_students_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `students` (`id`))
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 20:02:16 - Ошибка в SQL запросе: INSERT INTO teachers (name,keywords,visible,menu_position,parent_id,content,date,datetime,alias) values ('Новый класный учитель','смисми','1','1',0,'сиси',NOW(),NOW(),'') - 1452 Cannot add or update a child row: a foreign key constraint fails (`intershop`.`teachers`, CONSTRAINT `teachers_students_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `students` (`id`))
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 20:02:46 - Ошибка в SQL запросе: INSERT INTO teachers (name,keywords,visible,menu_position,parent_id,content,date,datetime,alias) values ('Юра Грицик /\\kj$$@@','cvbnvbn','1','1',0,'bvnvbn',NOW(),NOW(),'') - 1452 Cannot add or update a child row: a foreign key constraint fails (`intershop`.`teachers`, CONSTRAINT `teachers_students_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `students` (`id`))
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 20:03:04 - Ошибка в SQL запросе: INSERT INTO teachers (name,keywords,visible,menu_position,parent_id,content,date,datetime,alias) values ('Юра Грицик','cvbnvbn','1','1',0,'bvnvbn',NOW(),NOW(),'') - 1452 Cannot add or update a child row: a foreign key constraint fails (`intershop`.`teachers`, CONSTRAINT `teachers_students_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `students` (`id`))
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 20:06:45 - Ошибка в SQL запросе: INSERT INTO teachers (name,keywords,visible,menu_position,parent_id,content,date,datetime,alias) values ('Юра Грицик','dsdsh','1','1',0,'sdhgdh',NOW(),NOW(),'') - 1452 Cannot add or update a child row: a foreign key constraint fails (`intershop`.`teachers`, CONSTRAINT `teachers_students_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `students` (`id`))
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 20:10:28 - Ошибка в SQL запросе: INSERT INTO teachers (name,keywords,visible,menu_position,parent_id,content,date,datetime,alias) values ('Yura','cvxb','1','1',0,'kjou',NOW(),NOW(),'') - 1452 Cannot add or update a child row: a foreign key constraint fails (`intershop`.`teachers`, CONSTRAINT `teachers_students_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `students` (`id`))
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:26-03-2020 20:15:21 - Ошибка в SQL запросе: INSERT INTO teachers (name,keywords,visible,menu_position,parent_id,content,date,datetime,alias) values ('Жанна ОльховскаяЗ','kjhhg','1','1',0,'mnbbcv',NOW(),NOW(),'') - 1452 Cannot add or update a child row: a foreign key constraint fails (`intershop`.`teachers`, CONSTRAINT `teachers_students_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `students` (`id`))
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+

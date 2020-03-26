@@ -313,7 +313,7 @@ abstract class BaseAdmin extends BaseController
 		$res_id = $this->model->$method($this->table, [
 			'fields' => $this->fileArray,
 			'where' => $where,
-			'retun_id' => true,
+			'return_id' => true,
 			'except' => $except
 		]);
 
@@ -362,9 +362,9 @@ abstract class BaseAdmin extends BaseController
 				$alias_str = $_POST['alias'] = $this->clearStr($_POST['alias']);
 			}
 
-//			$textModefy = new \libraries\TextModefy();
-//			$alias = $textModefy->translit($alias_str);
-			$alias = 'teachers_111';
+
+			$textModefy = new \libraries\TextModify();
+			$alias = $textModefy->translit($alias_str);
 
 			$where['alias'] = $alias;
 			$operand = '=';
@@ -408,13 +408,14 @@ abstract class BaseAdmin extends BaseController
 	}
 
 	protected function checkAlias($id){
+		$id ;
 		if ($id){
 			if ($this->alias){
 				$this->alias .= '-'. $id;
 
 				$this->model->edit($this->table, [
 					'fields' => ['alias' => $this->alias],
-					'where' => [$this->columns['id_row'] => 'id']
+					'where' => [$this->columns['id_row'] => $id]
 				]);
 				return true;
 			}
