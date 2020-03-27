@@ -7,6 +7,7 @@ use core\admin\models\Model;
 use core\base\controllers\BaseController;
 use core\base\exceptions\RouteException;
 use core\base\settings\Settings;
+use libraries\FileEdit;
 
 abstract class BaseAdmin extends BaseController
 {
@@ -311,7 +312,7 @@ abstract class BaseAdmin extends BaseController
 		$except = $this->checkExceptFields();
 
 		$res_id = $this->model->$method($this->table, [
-			'fields' => $this->fileArray,
+			'files' => $this->fileArray,
 			'where' => $where,
 			'return_id' => true,
 			'except' => $except
@@ -338,7 +339,8 @@ abstract class BaseAdmin extends BaseController
 	}
 
 	protected function createFile(){
-
+		$fileEdit = new FileEdit();
+		$this->fileArray = $fileEdit->addFile();
 	}
 
 	protected function updateMenuPosition(){
@@ -408,7 +410,7 @@ abstract class BaseAdmin extends BaseController
 	}
 
 	protected function checkAlias($id){
-		$id ;
+
 		if ($id){
 			if ($this->alias){
 				$this->alias .= '-'. $id;

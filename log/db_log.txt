@@ -411,3 +411,11 @@ Fault:26-03-2020 20:15:21 - Ошибка в SQL запросе: INSERT INTO teac
 fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
 In line 35
 
+Fault:27-03-2020 12:17:34 - Ошибка в SQL запросе: SELECT teachers.alias FROM teachers  WHERE teachers.alias='yuriy'   LIMIT 1 - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
+Fault:27-03-2020 17:47:17 - Ошибка в SQL запросе: SELECT teachers.alias FROM teachers  WHERE teachers.alias='yuriy'   LIMIT 1 - 2006 MySQL server has gone away
+fileD:\OSPanel\domains\InterShop\core\base\models\BaseModel.php
+In line 35
+
