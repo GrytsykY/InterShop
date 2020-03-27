@@ -258,3 +258,15 @@ Fault:26-03-2020 22:43:27 - Class core\admin\controllers\EditController does not
 fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
 In line 46
 
+Fault:27-03-2020 18:54:27 - Не верное имя файла для подключения - core/admin/controllers/CreatesitemapController
+fileD:\OSPanel\domains\InterShop\core\base\settings\internal_settings.php
+In line 32
+
+Fault:27-03-2020 18:54:27 - Class core\admin\controllers\CreatesitemapController does not exist
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 46
+
+Fault:27-03-2020 18:59:40 - Отсутсвует шаблон - core/admin/views/edit
+fileD:\OSPanel\domains\InterShop\core\base\controllers\BaseController.php
+In line 99
+
