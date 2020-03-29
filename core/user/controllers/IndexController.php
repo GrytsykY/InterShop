@@ -4,6 +4,7 @@
 namespace core\user\controllers;
 
 
+use core\admin\models\Model;
 use core\base\controllers\BaseController;
 use core\base\models\Crypt;
 
@@ -13,12 +14,22 @@ class IndexController extends BaseController
 
     protected function inputData(){
 
-    	$str = '1234567890abcdefg';
+    	$model = Model::instance();
 
-    	$en_str = Crypt::instance()->encrypt($str);
+    	$res = $model->get('teachers', [
+    		'where' => ['id' => '1,2'],
+			'operand' => ['IN'],
+			'join' => [
+				'stud_teach' => ['on' => ['id', 'teacher']],
+				'students' => [
+					'fields' => ['name as st_name','content'],
+					'on' => ['student','id']
+				]
+			],
+			'join_structure' => true
 
-    	$dec_crypt = Crypt::instance()->decrypt($en_str);
+		]);
 
-        exit();
+    	exit;
     }
 }
