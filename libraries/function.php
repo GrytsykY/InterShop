@@ -3,7 +3,7 @@ function debug($arr){
     echo '<pre>';
     print_r($arr);
     echo '</pre>';
-    exit();
+    //exit();
 }
 
 if (!function_exists('mb_str_replace')){

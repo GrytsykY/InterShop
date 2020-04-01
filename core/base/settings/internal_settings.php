@@ -15,7 +15,7 @@ const QTY_LINKS = 3;
 
 const ADMIN_CSS_JS = [
     'styles' => ['css/main.css'],
-    'scripts' => [],
+    'scripts' => ['js/frameworkfunction.js','js/script.js'],
 ];
 const USER_CSS_JS = [
     'styles' => ['css/style.css'],

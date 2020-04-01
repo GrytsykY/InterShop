@@ -1,7 +1,7 @@
 <?php
 defined('WG_ACCESS') or die('Access denied');
 
-const SITE_URL = 'http://intershop';  //https://www.kolesa.ru/  http://cpa.fvds.ru/
+const SITE_URL = 'http://cpa.fvds.ru';  //https://www.kolesa.ru/  http://cpa.fvds.ru/
 const PATH = '/';
 
 const HOST = 'localhost';

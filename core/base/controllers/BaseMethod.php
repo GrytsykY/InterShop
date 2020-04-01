@@ -30,7 +30,7 @@ trait BaseMethod
     }
 
     protected function isAjax(){
-        return isset($_SERVER['HTTP_X_REQUEST_WITH']) && $_SERVER['HTTP_X_REQUEST_WITH'] === 'XMLHttpRequest';
+        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
     }
 
     protected function redirect($http = false, $code = false){
@@ -49,6 +49,20 @@ trait BaseMethod
         // Завершение скрипта
         exit;
     }
+
+    protected function getStyles(){
+
+    	if ($this->styles){
+    		foreach ($this->styles as $style) echo '<link rel="stylesheet" href="' .$style. '">';
+		}
+	}
+
+	protected function getScripts(){
+
+		if ($this->scripts){
+			foreach ($this->scripts as $script) echo '<script src="' .$script. '"></script>';
+		}
+	}
 
     protected function writeLog($message, $file = 'log.txt', $event = 'Fault'){
         $dataTime = new \DateTime();
